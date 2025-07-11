@@ -14,7 +14,7 @@ public class Stone_paper_scissor {
         //Generate computer choice
         int computerChoice = random.nextInt(3);
 
-        //Show both choices
+        //Show Both choices:
         System.out.println("you choose:" + userChoice);
         System.out.println("computer choose:" + computerChoice);
 
