@@ -9,7 +9,7 @@ public class Stone_paper_scissor {
         System.out.println("Welcome to stone paper scissors");
         System.out.println("Enter your choice:0 for stone,1 for paper,2 for scissors!");
 
-        //Get user choice
+        //Get User choice
         int userChoice = sc.nextInt();
         //Generate computer choice
         int computerChoice = random.nextInt(3);
@@ -28,12 +28,11 @@ public class Stone_paper_scissor {
             System.out.println("Computer wins!");
         }
          int choice=1;
-            switch (choice) {
+            switch (choice){
                 case 0 -> System.out.println("stone");
                 case 1 -> System.out.println("paper");
                 case 2 -> System.out.println("scissor");
                 default -> System.out.println("invalid choice");
             }
-
     }
 }
